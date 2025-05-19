@@ -32,7 +32,7 @@ $dsn = 'mysql:host=' . $host . ';dbname=' . $dbName . ';charset=utf8';
 $pdo = new PDO($dsn, $user, $password);
 ```
 
-```tips
+```tip
 - `$dsn`に設定する値には、決してスペースを間に入れないように！エラーが発生する場合があります！
 - `$dsn`に設定する値で、「：」（コロン）と「；」（セミコロン）を間違わないように！
 ```
