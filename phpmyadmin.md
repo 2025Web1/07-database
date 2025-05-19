@@ -17,8 +17,8 @@ cloneした環境には、既にphpMyAdminとデータベース環境が構築�
    ![](./images/port_phpmyadmin.png){: style="width: 660px;height: auto;" }
 3. ブラウザが立ち上がるので、「データーベース」をクリック<br>
    ![](./images/top_phpmyadmin.png){: style="width: 660px;height: auto;" }
-4. データベースの一覧が表示されるので、「SAMPLE」データベースをクリック
-5. ![](./images/database_phpmyadmin.png){: style="width: 660px;height: auto;" }
+4. データベースの一覧が表示されるので、「SAMPLE」データベースをクリック<br>
+   ![](./images/database_phpmyadmin.png){: style="width: 660px;height: auto;" }
 
 ## 本章のデータベース環境について
 
