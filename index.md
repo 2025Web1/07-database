@@ -1,6 +1,6 @@
 # データベース
 
-[こちらのページ]()から、ソースコードを`C:¥web_app_dev`へcloneしてください。
+[こちらのページ](https://classroom.github.com/a/CEKw_Jha)から、ソースコードを`C:¥web_app_dev`へcloneしてください。
 
 ## 本章の構成について
 

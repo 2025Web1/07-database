@@ -121,7 +121,7 @@ SELECT文の実行結果に応じて `fetchAll( )` と `fetch( )` の使い分�
 ## 合格確認方法
 
 1. pushし、課題を提出する
-2. 再度[本章リモートリポジトリ]()にアクセスする<br>
+2. 再度[本章リモートリポジトリ](https://classroom.github.com/a/CEKw_Jha)にアクセスする<br>
 3. 画面上部にある`Actions`をクリック<br>
 ![](./images/acions.png)
 1. **一番上**の行に、緑色のチェックが入っていればOK<br>
