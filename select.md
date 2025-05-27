@@ -26,7 +26,7 @@ PHPからデータベースを利用するには `PDO`（PHP Data Objects）ク�
 $user = '接続するデータベースを利用するユーザー名';
 $password = 'そのパスワード';
 $host = 'ホスト名';
-$dbName = '接続するデータベース名';s
+$dbName = '接続するデータベース名';
 // dsn(Data Source Name(データソース名))は、プログラム側が操作対象のデータベースを指定するための識別名
 $dsn = 'mysql:host=' . $host . ';dbname=' . $dbName . ';charset=utf8'; 
 $pdo = new PDO($dsn, $user, $password);
@@ -46,7 +46,7 @@ MYSQL_USER=sampleuser # データベースに接続するユーザー名
 MYSQL_PASSWORD=samplepass # データベースに接続するユーザーのパスワード
 ```
 
-また、ホスト名ですが、`composer.yml`に`db`というデータベースコンテナのサービス名が設定されています。
+また、ホスト名ですが、`compose.yml`に`db`というデータベースコンテナのサービス名が設定されています。
 これがホスト名となります。
 
 ```yaml
