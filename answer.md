@@ -42,7 +42,9 @@ sort: 7
             exit('データベースに接続できませんでした：' . $e->getMessage());
         }
         $uid = $_POST['uid'];
-        $sql = 'SELECT * FROM person WHERE uid = ?';
+        // 補習用穴埋め問題 以下のSQL文を完成させてください。
+        // ヒント: uidが入力された値と一致するユーザを検索するSQL文を記述してください。
+        $sql = '                                   ';
         $stmt = $pdo->prepare($sql);
         $stmt->execute([$uid]);
         $row = $stmt->fetch();
